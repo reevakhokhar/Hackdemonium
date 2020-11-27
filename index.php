@@ -1,6 +1,5 @@
 <?php
-$br = "<br>";
-$br2 = "<br><br>";
+
  
 $now = new DateTime();
 $future_date = new DateTime('2021-01-15 16:00:00');
@@ -9,6 +8,7 @@ $interval = $future_date->diff($now);
 $time_left = $interval->format("%a days, %h hours, %i minutes");
 
 ?>
+
 
 
 <!doctype html>

@@ -5811,3 +5811,8 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.center {
+  display: flex;
+  justify-content: center;
+}

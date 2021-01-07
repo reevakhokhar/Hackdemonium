@@ -81,7 +81,7 @@
                                     Hackathon</h3>
                                 <a href="https://calendar.google.com/calendar/u/4?cid=YnBkanJ1OXNnY3NqM3FjdjNrcW1nMm9mM3NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" class="boxed-btn-white">Add to your Calendar</a>
                                 <a href="https://hackdemonium.devpost.com/" class="boxed-btn-white">Sign up on Devpost</a>
-                                <a href="https://discord.gg/xtqVjvtzwV" class="boxed-btn-white">Join the Discord</a>
+                                <a href="https://discord.gg/kYTuB2WjhZ" class="boxed-btn-white">Join the Discord</a>
                             </div>
                         </div>
                     </div>
@@ -148,15 +148,15 @@
             <div class="row align-items-center">
                 <div class="col-xl-6 col-md-6">
                     <div class="about_info">
-                        <img src="img/about/mission.png" class="info">
-                        <h3>Mission</h3>
+                        
+                        <h3><img src="img/about/mission.png" class="info" id="mission"> Mission</h3>
                         <p>Empower students to explore the many aspects of computer science and inspire them to create change through code.</p>
                     </div>
                 </div>
                 <div class="col-xl-5 offset-xl-1 col-md-6">
                     <div class="about_info">
-                        <img src="img/about/vision.png" class="info">
-                        <h3>Vision</h3>
+                        
+                        <h3><img src="img/about/vision.png" class="info" id="vision"> Vision</h3>
                         <p>Create interest in the STEM field from an early age to inspire ideas that will change the world.</p>                    
                     </div>
                 </div>
@@ -507,6 +507,38 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="card">
+                            <div class="card-header" id="headingNine">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseNine"
+                                        aria-expanded="false" aria-controls="collapseNine">
+                                        <img src="img/barnd/info.png" alt="">Are hardware hacks allowed?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseNine" class="collapse" aria-labelledby="headingNine"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    Yes, both hardware and software hacks are allowed.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTen">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTen"
+                                        aria-expanded="false" aria-controls="collapseTen">
+                                        <img src="img/barnd/info.png" alt="">Can the project be submitted to other hackathons?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTen" class="collapse" aria-labelledby="headingTen"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    No, all projects must only be started after the opening ceremony and can only be submitted to Hackdemonium.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -515,8 +547,8 @@
     <!-- faq_area_end -->
 
     <!-- brand_area_start -->
-    <div class="brand_area" id="sponsors">
-        <div class="container">
+    <div class="brand_area">
+       <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="serction_title_large mb-95">
@@ -527,18 +559,19 @@
                 </div>
             </div>
         <div class="container">
-            <div class="row">
-              <div class="center">
+          <div class="row">
+              <div class="center-partner">
                 <div class="single_brand text-center">
-                    <a href="https://hackplus.io/"><img src="img/barnd/a.png" target="_blank" height="100px"></a>
+                    <a href="https://hackplus.io/"><img src="img/barnd/a.png" target="_blank" class = "sponsor"></a>
                 </div>
                 <div class="single_brand text-center">
-                    <a href="https://bytesized.godaddysites.com/"><img src="img/barnd/b.png" target="_blank" height="100px"></a>
-                </div> 
-              </div>
+                    <a href="https://bytesized.godaddysites.com/"><img src="img/barnd/b.png" target="_blank" class = "sponsor"></a>
+                </div>
+              </div> 
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
     <!-- brand_area_end -->
@@ -559,55 +592,55 @@
             <div class="row">
               <div class="center">
                 <div class="single_brand text-center">
-                    <a href="https://artofproblemsolving.com/"><img src="img/barnd/1.png" target="_blank" height="100px"></a>
+                    <a href="https://artofproblemsolving.com/"><img src="img/barnd/1.png" target="_blank" height="100px" class="sponsor"></a>
                 </div>
                 <div class="single_brand text-center">
-                    <a href="https://www.taskade.com/"><img src="img/barnd/2.png" target="_blank" height="100px"></a>
+                    <a href="https://www.taskade.com/"><img src="img/barnd/2.png" target="_blank" height="100px" class="sponsor"></a>
                 </div> 
                 <div class="single_brand text-center">
-                    <a href="https://console.echoar.xyz/#/auth/register-hackathon?code=Hackdemonium"><img src="img/barnd/3.png" target="_blank" height="100px"></a>
+                    <a href="https://console.echoar.xyz/#/auth/register-hackathon?code=Hackdemonium"><img src="img/barnd/3.png" target="_blank" height="100px" class="sponsor"></a>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="center">
                 <div class="single_brand text-center">
-                    <a href="https://repl.it/"><img src="img/barnd/4.png" target="_blank" height="100px"></a>
+                    <a href="https://repl.it/"><img src="img/barnd/4.png" target="_blank" height="100px" class="sponsor"></a>
                 </div>
                 <div class="single_brand text-center">
-                    <a href="https://www.producthunt.com/"><img src="img/barnd/5.png" target="_blank" height="100px"></a>
+                    <a href="https://www.producthunt.com/"><img src="img/barnd/5.png" target="_blank" height="100px" class="sponsor"></a>
                 </div>
                 <div class="single_brand text-center">
-                    <a href="https://www.wolfram.com/"><img src="img/barnd/6.png" target="_blank" height="100px"></a>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="center">
-                <div class="single_brand text-center">
-                    <a href="https://www.sashido.io/en/"><img src="img/barnd/7.png" target="_blank" height="100px"></a>
-                </div>
-                <div class="single_brand text-center">
-                    <a href="https://www.interviewcake.com/r/5I3EHG"><img src="img/barnd/8.png" target="_blank" height="100px"></a>
-                </div>
-                <div class="single_brand text-center">
-                    <a href="https://www.stickergiant.com/event-coupons?utm_source=website&utm_medium=event"><img src="img/barnd/9.png" target="_blank" height="100px"></a>
+                    <a href="https://www.wolfram.com/"><img src="img/barnd/6.png" target="_blank" height="100px" class="sponsor"></a>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="center">
                 <div class="single_brand text-center">
-                    <a href="https://1password.com/"><img src="img/barnd/10.png" target="_blank" height="100px"></a>
+                    <a href="https://www.sashido.io/en/"><img src="img/barnd/7.png" target="_blank" height="100px" class="sponsor"></a>
                 </div>
                 <div class="single_brand text-center">
-                    <a href="https://launchx.com/summer-program/"><img src="img/barnd/11.png" target="_blank" height="100px"></a>
+                    <a href="https://www.interviewcake.com/r/5I3EHG"><img src="img/barnd/8.png" target="_blank" height="100px" class="sponsor"></a>
                 </div>
                 <div class="single_brand text-center">
-                    <a href="https://thenewgirlcode.com/"><img src="img/barnd/12.png" target="_blank" height="100px"></a>
+                    <a href="https://www.stickergiant.com/event-coupons?utm_source=website&utm_medium=event"><img src="img/barnd/9.png" target="_blank" height="100px" class="sponsor"></a>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="center">
+                <div class="single_brand text-center">
+                    <a href="https://1password.com/"><img src="img/barnd/10.png" target="_blank" height="100px" class="sponsor"></a>
                 </div>
                 <div class="single_brand text-center">
-                    <a href="https://www.linode.com//"><img src="img/barnd/13.png" target="_blank" height="100px"></a>
+                    <a href="https://launchx.com/summer-program/"><img src="img/barnd/11.png" target="_blank" height="100px" class="sponsor"></a>
+                </div>
+                <div class="single_brand text-center">
+                    <a href="https://thenewgirlcode.com/"><img src="img/barnd/12.png" target="_blank" height="100px" class="sponsor"></a>
+                </div>
+                <div class="single_brand text-center">
+                    <a href="https://www.linode.com//"><img src="img/barnd/13.png" target="_blank" height="100px" class="sponsor"></a>
                 </div>
               </div>
             </div>

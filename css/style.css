@@ -373,7 +373,7 @@ h3 {
 
 /* line 262, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .mb-95 {
-  margin-bottom: 95px;
+  margin-bottom: 45px;
 }
 
 @media (max-width: 767px) {
@@ -1385,8 +1385,8 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .about_area {
-  padding-top: 200px;
-  padding-bottom: 100px;
+  padding-top: 30px;
+  padding-bottom: 0px;
   position: relative;
 }
 
@@ -1422,8 +1422,8 @@ h3 {
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
   .about_area {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 25px;
   }
 }
 
@@ -1527,7 +1527,7 @@ h3 {
   font-weight: 400;
   line-height: 28px;
   color: #808080;
-  margin-top: 30px;
+  margin-top: 15px;
   margin-bottom: 60px;
 }
 
@@ -1541,6 +1541,10 @@ h3 {
 /* line 105, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .about_area .about_info a {
   text-align: center;
+}
+
+#mission, #vision {
+  padding-right: 10px;
 }
 
 /* line 111, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
@@ -1877,8 +1881,8 @@ h3 {
 
 /* line 34, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_resister.scss */
 .brand_area {
-  padding-top: 120px;
-  padding-bottom: 100px;
+  padding-top: 65px;
+  padding-bottom: 25px;
 }
 
 /* line 37, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_resister.scss */
@@ -1917,7 +1921,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
 .faq_area {
-  padding-top: 30px;
+  padding-top: 0px;
   padding-bottom: 0px;
 }
 
@@ -1946,6 +1950,12 @@ h3 {
   .faq_area .accordion_heading {
     margin-bottom: 30px;
   }
+}
+
+.frequenty-asked-title {
+  line-height: 0px;
+  padding-bottom: 0px; 
+  margin-bottom: 0px;
 }
 
 /* line 16, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
@@ -2029,6 +2039,10 @@ h3 {
   .faq_area #accordion .card {
     margin-bottom: 10px;
   }
+}
+
+#headingTwo {
+  padding: 0px 0px 16px 14px;
 }
 
 /* line 77, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
@@ -5815,6 +5829,20 @@ h6 {
 .center {
   display: flex;
   justify-content: center;
+  align-items: center;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;*/
+  object-fit: cover!
+}
+
+.center-partner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover!
 }
 
 .sponsprosp {
@@ -5827,4 +5855,9 @@ u {
 
 .info {
   height: 50px;
+}
+
+.sponsor {
+  padding: 15px 15px 15px 15px;
+  height: 135px;
 }

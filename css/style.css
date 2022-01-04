@@ -505,18 +505,19 @@ h3 {
 
 /* line 73, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
 .boxed-btn-white {
-  background: transparent;
-  color: #fff;
   display: inline-block;
-  padding: 16px 43px;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  border: 0;
-  border: 2px solid #fff;
   text-align: center;
-  color: #fff !important;
-  text-transform: capitalize;
+  text-transform: uppercase;
+  overflow: hidden;
+  color: #fff;
+  position: relative;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 18px 44px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+  border: 1px solid #fff;
+
 }
 
 @media (max-width: 767px) {
@@ -527,22 +528,37 @@ h3 {
   }
 }
 
-/* line 91, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
-.boxed-btn-white:hover {
-  background: #fff;
-  color: #000 !important;
-  border: 2px solid #fff;
+.boxed-btn-white span {
+  position: relative; 
+  z-index: 1;
 }
+
+.boxed-btn-white:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 300%;
+  background: #fff;
+  color: #fff;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.boxed-btn-white:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+/* line 91, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
+
 
 /* line 96, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
-.boxed-btn-white:focus {
-  outline: none;
-}
 
-/* line 99, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
-.boxed-btn-white.large-width {
-  width: 220px;
-}
+
+
 
 /* line 2, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
 .section_title .sub_heading {
